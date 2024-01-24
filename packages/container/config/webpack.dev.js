@@ -11,7 +11,7 @@ const devConfig = {
     historyApiFallback: {
       index: "index.html",
     },
-    // shared: packageJson.dependencies,
+    shared: packageJson.dependencies,
   },
   plugins: [
     new ModuleFederationPlugin({
